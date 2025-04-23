@@ -61,6 +61,7 @@ source /cadence/install/cshrc (mention the path of the tools)
 After this you can see the window like below 
 
 ### Fig 2: Invoke the Cadence Environment
+![image](https://github.com/user-attachments/assets/823e3593-5112-4ac1-ab52-129b86d4a533)
 
 To Launch Simulation tool 
 
@@ -74,12 +75,15 @@ or
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
 ### Fig 3: Setting Multi-step simulation
+![image](https://github.com/user-attachments/assets/7d1caf3c-145e-45a2-aede-9c534e2b2660)
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
 
 ### Fig 4:cds.lib file Creation
+![image](https://github.com/user-attachments/assets/6ed1e63b-d7c3-40a1-b58d-a24687c62f9e)
+
 
 Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used. 
 
@@ -89,7 +93,6 @@ We are simulating verilog design without using any libraries
 
 A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
-![image](https://github.com/user-attachments/assets/d5202b97-ee5c-4e0e-9eaf-5f3fa733e546)
 
 ### Fig 5: Selection of Don’t include any libraries
 
@@ -102,6 +105,7 @@ Worklib is the directory where all the compiled codes are stored while Snapshot 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
 ### Fig 6: Nclaunch Window
+![Uploading image.png…]()
 
 ## Step 1: Compilation:
 
@@ -126,6 +130,7 @@ Left side select the file and in Tools : launch verilog compiler with current se
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
 ### Fig 7: Compiled database in worklib
+![Uploading image.png…]()
 
 After compilation it will come under worklib you can see in right side window
 
@@ -134,6 +139,7 @@ Select the test bench and compile it. It will come under worklib. Under Worklib 
 The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical
 
 directory paths. For this Design, you will define a library called “worklib”
+
 
 #3 Step 2: Elaboration:– 
 
@@ -172,12 +178,16 @@ Outputs: Simulation log file, waveforms for debugging
 Simulation allow to dump design and test bench signals into a waveform 
 
 Steps for simulation – Run the simulation command with simulator options
+![image](https://github.com/user-attachments/assets/c09035f4-0ac7-4198-bf08-31b216ec9d33)
 
 ## Fig 9: Design Browser window for simulation
+![image](https://github.com/user-attachments/assets/cc3975c8-d9e0-4f83-82b0-19a9744a0680)
 
 ## Fig 10:Simulation Waveform Window
+![image](https://github.com/user-attachments/assets/e7e79727-711b-452d-9d9c-78f3153f7e9e)
 
 ## Fig 11:Simulation Waveform Window
+![image](https://github.com/user-attachments/assets/8841c30f-e2ed-4110-b52e-850d73fc0369)
 
 ### Result
 
